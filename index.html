@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--font awesome cdn icon links-->
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--Style sheet Links-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Coffee menu</h1>
+<section class="menu" id="menu">
+       <div class="menu-container" onclick="myfun()">
+            <!--coffee-->
+            <div class="menu-card" data-name="p-1">
+                <img src="img/m1.jpg" alt="coffee">
+                <div class="text">
+                    <h3>Coffee</h3>
+                    <div class="price">$15.00</div>
+                </div>
+                </div>
+                 <!--black coffee-->
+                <div class="menu-card" data-name="p-2">
+                    <img src="img/m2.png" alt=" black coffee">
+                    <div class="text">
+                        <h3>Black Coffee</h3>
+                        <div class="price">$10.00</div>
+                    </div>
+                    </div>
+                     <!--coffee Art-->
+                    <div class="menu-card" data-name="p-3">
+                        <img src="img/m3.jpg" alt="coffeeArt">
+                        <div class="text">
+                            <h3>Coffee Art</h3>
+                            <div class="price">$40.00</div>
+                        </div>
+                        </div>
+                         <!-- chocolate coffee-->
+                        <div class="menu-card" data-name="p-4">
+                            <img src="img/m4.png" alt="Chocolate coffee">
+                            <div class="text">
+                                <h3>Chocolate Coffee</h3>
+                                <div class="price">$40.00</div>
+                            </div>
+                            </div>
+                             <!--iced coffee-->
+                            <div class="menu-card" data-name="p-5">
+                                <img src="img/m5.png" alt="iced coffee">
+                                <div class="text">
+                                    <h3>Iced Coffee</h3>
+                                    <div class="price">$30.00</div>
+                                </div>
+                                </div>
+                                 <!--caramel coffee-->
+                                <div class="menu-card" data-name="p-6">
+                                    <img src="img/m6.png" alt="caramel coffee">
+                                    <div class="text">
+                                        <h3>CaramelCoffee</h3>
+           <div class="price">$20.00</div>
+        </div>
+        </div>
+        </div>
+        
+         <!--Pop UP Card-->
+        <div class="menu-preview" onclick="mycard()">
+             <!--coffee-->
+            <div class="preview active" data-target="p-1">
+                <i class="fa fa-times"></i>
+                <img src="img/m1.jpg" alt="coffee">
+                <div class="content">
+                <h3> Coffee</h3>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                <span>(25)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="price">$15.00</div>
+                <div class="btn">
+                    <a href="#" class="buy"><i class="fa fa-download"></i>
+                        &nbsp;    Buy Now</a>
+                    <a href="#" class="cart"> <i class="fa fa-cart-plus"></i>
+                        &nbsp;   Add to cart</a>
+                </div>
+                </div>
+            </div>
+            </div>
+         <!-- black coffee-->
+            <div class="preview" data-target="p-2">
+                <i class="fa fa-times"></i>
+                <img src="img/m2.png" alt="Black coffee">
+                <div class="content">
+                <h3>Coffee</h3>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                <span>(25)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="price">$10.00</div>
+                <div class="btn">
+                    <a href="#" class="buy"><i class="fa fa-download"></i>
+                        &nbsp;   Buy Now</a>
+                    <a href="#" class="cart"> <i class="fa fa-cart-plus"></i>
+                        &nbsp;     Add to cart</a>
+                </div>
+                </div>
+            </div>
+            </div>
+             <!--coffee Art-->
+            <div class="preview" data-target="p-3">
+                <i class="fa fa-times"></i>
+                <img src="img/m3.jpg" alt="coffee art">
+                <div class="content">
+                <h3>Coffee Art</h3>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                <span>(25)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="price">$40.00</div>
+                <div class="btn">
+                    <a href="#" class="buy"><i class="fa fa-download"></i>
+                      &nbsp;  Buy Now</a>
+                    <a href="#" class="cart"> <i class="fa fa-cart-plus"></i>
+                        &nbsp;   Add to cart</a>
+                </div>
+                </div>
+            </div>
+            </div>
+             <!--chocolate coffee-->
+            <div class="preview" data-target="p-4">
+                <i class="fa fa-times"></i>
+                <img src="img/m4.png" alt="chocolate coffee">
+                 <div class="content">
+                <h3> Chocolate Coffee</h3>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-star-half-o"></i>
+                <span>(25)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="price">$40.00</div>
+                <div class="btn">
+                    <a href="#" class="buy"><i class="fa fa-download"></i>
+                        &nbsp;    Buy Now</a>
+                    <a href="#" class="cart"> <i class="fa fa-cart-plus"></i>
+                        &nbsp;    Add to cart</a>
+                </div>
+                </div>
+            </div></div>
+             <!--iced coffee-->
+            <div class="preview" data-target="p-5">
+                <i class="fa fa-times"></i>
+                <img src="img/m5.png" alt="iced coffee">
+               <div class="content">
+                     <h3>Iced Coffee</h3>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-star-half-o"></i>
+                <span>(25)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="price">$30.00</div>
+                <div class="btn">
+                    <a href="#" class="buy"><i class="fa fa-download"></i>
+                        &nbsp;    Buy Now</a>
+                    <a href="#" class="cart"> <i class="fa fa-cart-plus"></i>
+                        &nbsp;   Add to cart</a>
+                </div>
+                </div>
+            </div></div>
+             <!--caramel coffee-->
+            <div class="preview" data-target="p-6">
+                <i class="fa fa-times"></i>
+                <img src="img/m6.png" alt="caramelcoffee">
+                <div class="content">
+                <h3>Coffee</h3>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                <span>(25)</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="price">$20.00</div>
+                <div class="btn">
+                    <a href="#" class="buy"><i class="fa fa-download"></i>
+                        &nbsp;   Buy Now</a>
+                    <a href="#" class="cart"> <i class="fa fa-cart-plus"></i>
+                        &nbsp;    Add to cart</a>
+                </div>
+                </div>
+            </div>
+            </div></div>
+        </section>
+        <script src="script.js"></script>
+</body>
+</html>
